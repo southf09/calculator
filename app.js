@@ -8,8 +8,18 @@ buttons.map( button => {
             case 'AC':
                 output.innerText = '';
                 break; 
+            case 'DEL':
+                if(output.innerText){
+                    output.innerText = output.innerText.slice(0, -1);
+                break;
+                }
             case '=':
-                output.innerText = eval(output.innerText);
+                try{
+                    output.innerText = eval(output.innerText);
+                }
+                catch {
+                    output.innerText = 'Error!';
+                }
                 break;
             default: 
                 output.innerText += e.target.innerText;
