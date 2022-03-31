@@ -18,3 +18,5 @@ Functionality:
 Features to be added:
 -Output box updated with keypresses from the keyboard
 -A previous and current number counter
+-Additional buttons, such as '(', ')'
+-Improved mobile viewS
