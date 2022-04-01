@@ -14,9 +14,9 @@ Functionality:
 -The = button will evaluate the expression as seen in the output
 -All standard math operations work as intended
 -Use of word wrap allows the output box to take up as many lines as needed, without overflowing
+-Output box updated with keypresses from the keyboard (4/1/22)
 
 Features to be added:
--Output box updated with keypresses from the keyboard
 -A previous and current number counter
 -Additional buttons, such as '(', ')'
 -Improved mobile viewS
