@@ -12,7 +12,7 @@ buttons.map( button => {
                 if(output.innerText){
                     output.innerText = output.innerText.slice(0, -1);
                 break;
-                }
+                } 
             case '=':
                 try{
                     output.innerText = eval(output.innerText);
@@ -35,8 +35,10 @@ window.addEventListener('keydown', (e) => {
         case 'DEL':
             if(output.innerText){
                 output.innerText = output.innerText.slice(0, -1);
-            break;
+                break;
             }
+            
+            
         case 'Enter':
             try{
                 output.innerText = eval(output.innerText);
