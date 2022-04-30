@@ -20,3 +20,6 @@ Features to be added:
 -A previous and current number counter
 -Additional buttons, such as '(', ')'
 -Improved mobile viewS
+
+IMPORTANT:
+-Improve DEL button functionality
