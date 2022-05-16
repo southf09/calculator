@@ -19,7 +19,7 @@ Functionality:
 Features to be added:
 -A previous and current number counter
 -Additional buttons, such as '(', ')'
--Improved mobile viewS
+-Media Queries for screen sizes below a width of 450px
 
 IMPORTANT:
 -Improve DEL button functionality
