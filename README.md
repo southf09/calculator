@@ -1,5 +1,5 @@
 # calculator
-This is a calculator made using HTML, JS, and CSS
+Welcome to my calculator project! This is a fully-functioning calculator made using HTML, CSS, and JS.
 
 It demonstrates the following:
 -Effective use of CSS grid to format the shape of the calculator
