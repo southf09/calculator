@@ -9,7 +9,7 @@ buttons.map( button => {
                 output.innerText = '';
                 break; 
             case 'DEL':
-                if(output.innerText){
+                if(output.innerText != 'undefined'){
                     output.innerText = output.innerText.slice(0, -1);
                 break;
                 } 
